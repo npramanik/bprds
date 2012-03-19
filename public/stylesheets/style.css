@@ -99,7 +99,7 @@ ol li
 { margin: 0px 0px 11px 0px;
   padding: 0px;}
 
-#header, #logo, #menubar, #panel, #site_content, #footer
+#header, #logo, #menubar, #panel, #site_content, #footer, #panel_health
 { margin-left: auto;
   margin-right: auto;}
 
@@ -173,6 +173,12 @@ ul#menu li.tab_selected a:hover, ul#menu li a:hover
   height: 154px;
   border: 15px solid #E9E4C7;}
 
+#panel_health
+{ width: 792px;
+  height: 391px;
+  border: 15px solid #E9E4C7;
+
+}
 #site_content
 { width: 875px;
   overflow: hidden;

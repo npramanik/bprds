@@ -15,7 +15,7 @@ p
   padding: 0px 0px 16px 0px;
   line-height: 1.7em;}
 
-h1, h2, h3, h4, h5, h6 
+h1, h2, h3, h4, h5, h6
 { color: #362C20;
   padding: 0 0 5px 0;}
 
@@ -44,8 +44,8 @@ h5, h6
 { color: #129991;}
 
 img
-{ border: 0px; 
-  margin: 0px; 
+{ border: 0px;
+  margin: 0px;
   padding: 0px;}
 
 a, a:hover
@@ -58,7 +58,7 @@ a:hover
 { border-bottom: 1px solid;}
 
 form
-{ padding: 0; 
+{ padding: 0;
   margin: 0;}
 
 .left
@@ -67,7 +67,7 @@ form
   margin-right: 10px;}
 
 .right
-{ float: right; 
+{ float: right;
   width: auto;
   margin-left: 10px;}
 
@@ -77,7 +77,7 @@ form
   margin: 20px auto;}
 
 blockquote
-{ margin: 20px 0; 
+{ margin: 20px 0;
   padding: 10px 20px 0 20px;
   border: 1px solid #E5E5DB;
   background: #FFF;}
@@ -88,7 +88,7 @@ ul
 
 ul li
 { list-style-type: square;
-  margin: 0px 0px 6px 0px; 
+  margin: 0px 0px 6px 0px;
   padding: 0px;}
 
 ol
@@ -96,11 +96,11 @@ ol
   padding: 0px;}
 
 ol li
-{ margin: 0px 0px 11px 0px; 
+{ margin: 0px 0px 11px 0px;
   padding: 0px;}
 
-#header, #logo, #menubar, #panel, #site_content, #footer
-{ margin-left: auto; 
+#header, #logo, #menubar, #panel, #site_content, #footer, #panel_health
+{ margin-left: auto;
   margin-right: auto;}
 
 #header
@@ -112,8 +112,8 @@ ol li
   position: relative;
   height: 107px;}
 
-#logo #logo_text 
-{ position: absolute; 
+#logo #logo_text
+{ position: absolute;
   top: 15px;
   left: 0;}
 
@@ -129,7 +129,7 @@ ol li
 #menubar
 { width: 870px;
   height: 45px;
-  padding-left: 5px;} 
+  padding-left: 5px;}
 
 ul#menu
 { float: left;
@@ -144,14 +144,14 @@ ul#menu li
 ul#menu li a
 { letter-spacing: 0.1em;
   font-size: 105%;
-  display: block; 
-  float: left; 
+  display: block;
+  float: left;
   height: 20px;
-  text-decoration: none; 
+  text-decoration: none;
   padding: 8px 26px 5px 12px;
   text-align: center;
   color: #FFF;
-  border: none;} 
+  border: none;}
 
 ul#menu li.tab_selected a
 { height: 22px;
@@ -171,13 +171,18 @@ ul#menu li.tab_selected a:hover, ul#menu li a:hover
 #panel
 { width: 792px;
   height: 154px;
-  border: 15px solid #E9E4C7;} 
+  border: 15px solid #E9E4C7;}
+
+#panel_health
+{ width: 792px;
+  height: 300px;
+  border: 15px solid #E9E4C7;}
 
 #site_content
 { width: 875px;
   overflow: hidden;
   background: #FFF url(site_content.png) repeat-y;
-  padding-top: 20px;} 
+  padding-top: 20px;}
 
 #site_content_bottom
 { width: 875px;
@@ -192,25 +197,25 @@ ul#menu li.tab_selected a:hover, ul#menu li a:hover
 
 .sidebar ul
 { border-top: 1px solid #D6D9C9;
-  width: 178px; 
-  padding-top: 4px; 
+  width: 178px;
+  padding-top: 4px;
   margin: 4px 0px 30px 0px;}
 
 .sidebar li
-{ list-style: none; 
-  padding: 0px 0px 4px 0px; 
+{ list-style: none;
+  padding: 0px 0px 4px 0px;
   border-bottom: 1px solid #D6D9C9;}
 
 .sidebar li a, .sidebar li a:hover
-{ text-decoration: none; 
+{ text-decoration: none;
   padding: 0px 0px 0px 18px;
   display: block;
   background: transparent url(arrow.png) no-repeat left center;
   color: #555;
-  border: none;} 
+  border: none;}
 
 .sidebar li a.selected, .sidebar li a:hover, .sidebar li a.selected:hover
-{ background: transparent url(arrow_select.png) no-repeat left center;} 
+{ background: transparent url(arrow_select.png) no-repeat left center;}
 
 #content
 { text-align: left;
@@ -221,7 +226,7 @@ ul#menu li.tab_selected a:hover, ul#menu li a:hover
 { width: 730px;
   height: 40px;
   padding: 18px 20px 4px 20px;
-  text-align: center; 
+  text-align: center;
   color: #444;}
 
 .alternate_colour{color: #A2AB3B;}
@@ -233,39 +238,39 @@ ul#menu li.tab_selected a:hover, ul#menu li a:hover
 { padding: 0 0 4px 0;}
 
 .form_settings span
-{ float: left; 
-  width: 200px; 
+{ float: left;
+  width: 200px;
   text-align: left;}
-  
+
 .form_settings input, .form_settings textarea
-{ padding: 2px; 
-  width: 299px; 
-  font: 100% arial; 
-  border: 1px solid #E5E5DB; 
-  background: #FFF; 
+{ padding: 2px;
+  width: 299px;
+  font: 100% arial;
+  border: 1px solid #E5E5DB;
+  background: #FFF;
   color: #47433F;}
-  
+
 .form_settings .submit
-{ font: 100% arial; 
-  border: 1px solid; 
-  width: 99px; 
-  margin: 0 0 0 206px; 
+{ font: 100% arial;
+  border: 1px solid;
+  width: 99px;
+  margin: 0 0 0 206px;
   height: 26px;
   padding: 2px 0 3px 0;
-  cursor: pointer; 
-  background: #3B3B3B; 
+  cursor: pointer;
+  background: #3B3B3B;
   color: #FFF;}
 
 .form_settings textarea, .form_settings select
-{ font: 100% arial; 
+{ font: 100% arial;
   width: 299px;}
 
 .form_settings select
 { width: 304px;}
 
 .form_settings .checkbox
-{ margin: 4px 0; 
-  padding: 0; 
+{ margin: 4px 0;
+  padding: 0;
   width: 14px;
   border: 0;
   background: none;}
@@ -276,7 +281,7 @@ ul#menu li.tab_selected a:hover, ul#menu li a:hover
   border-top: 1px solid #D9D5CF;
   border-bottom: 1px solid #FFF;
   margin: 0 0 20px 0;}
-  
+
 table
 { margin: 10px 0 30px 0;}
 
@@ -285,8 +290,9 @@ table tr th, table tr td
   background: #3B3B3B;
   color: #FFF;
   padding: 7px 4px;}
-  
+
 table tr td
 { background: #CCCCCC;
   color: #47433F;
   border-top: 1px solid #FFF;}
+
