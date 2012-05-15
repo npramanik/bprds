@@ -1,5 +1,4 @@
-/*$(document).ready(function() {
-    $("div#panel_health").carousel();
+$(document).ready(function() {
+    $('.carousel').carousel();
 });
-*/
 
